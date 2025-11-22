@@ -587,4 +587,28 @@ p{
     color: #fff;
 
  } */
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  img{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+  .img {
+    max-width: 300px;
+    border: 6px solid green;
+    border-radius: 15px;
+  }
+  .box {
+    max-width: 700px;
+    margin-inline: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
  
